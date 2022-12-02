@@ -6,19 +6,6 @@
 
 </div>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/rroyo/JS-Projects"></a>
-  <h3 align="center">Ramon's <i>JS Projects</i></h3>
-  <p align="center">
-    On this repo I'll be publishing all the HTML/CSS/JS projects I'll be doing to hone my skills and build a portfolio and most importantly, what I've learned on every project.
-  </p>
-  <img src="https://i.ibb.co/4fS4cvT/futuristic-city.jpg" alt="Drawing of a Futuristic City Sunset" border="0">
-</div>
-
-
-
 <!-- PROJECTS -->
 ## Infinite Scroll
 <hr>

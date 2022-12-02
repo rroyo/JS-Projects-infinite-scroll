@@ -7,7 +7,7 @@
 </div>
 
 <!-- PROJECTS -->
-## Infinite Scroll
+# Infinite Scroll
 <hr>
 
 2022/12/02 Infinite Scroll - [Github](https://github.com/rroyo/JS-Projects-infinite-scroll) | [Live](https://rroyo.github.io/JS-Projects-infinite-scroll/):

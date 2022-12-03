@@ -3,21 +3,20 @@ const loader = document.getElementById("loader");
 
 let photosArray = [];
 let contentTotalHeight, innerHeight, verticalScroll;
-let imagesToLoad = 3;
-const imagesToLoadAfterFirstLoad = 10;
+const imagesInitialLoad = 3;
+const imagesAfterFirstLoad = 10;
 let allImagesLoaded = false;
 let imagesLoaded = 0;
 let totalImages = 0;
 
 const UNSPLASH_PUBLIC_API_ACCESS_KEY = "BeNTmbYEdY9Xlz4gHeI9kuwRWDJAt7eHVk4dImQFGu8";
-let unsplashUrl = `https://api.unsplash.com/photos/random/?client_id=${UNSPLASH_PUBLIC_API_ACCESS_KEY}&count=${imagesToLoad}`;
+let unsplashUrl = `https://api.unsplash.com/photos/random/?client_id=${UNSPLASH_PUBLIC_API_ACCESS_KEY}&count=${imagesInitialLoad}`;
 
 /**
  * @dev After the first load, set a higher amount of photos to download
  */
 function afterFirstLoad() {
-  imagesToLoad = imagesToLoadAfterFirstLoad;
-  unsplashUrl = `https://api.unsplash.com/photos/random/?client_id=${UNSPLASH_PUBLIC_API_ACCESS_KEY}&count=${imagesToLoad}`;
+  unsplashUrl = `https://api.unsplash.com/photos/random/?client_id=${UNSPLASH_PUBLIC_API_ACCESS_KEY}&count=${imagesAfterFirstLoad}`;
 }
 
 /**
